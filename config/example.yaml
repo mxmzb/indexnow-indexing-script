@@ -1,0 +1,12 @@
+# the domain that you want to index. if you want to index subdomains, you need
+# to create separate configs and API key files as described in the readme
+host: example.com
+
+# the generated api key
+api_key: 61ab0b0d08cd0f4835e7ad2809e58f8f
+
+# a list of all your generated sitemaps. in future versions, the script will be able
+# to recognize referenced sitemaps from an origin sitemap
+sitemaps:
+  - https://example.com/sitemap.xml
+  - https://example.com/server-sitemap.xml
