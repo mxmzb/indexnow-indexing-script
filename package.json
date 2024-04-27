@@ -1,4 +1,6 @@
 {
+  "name": "indexnow-indexing-script",
+  "version": "1.0.0",
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "index": "tsx src/index.ts"
