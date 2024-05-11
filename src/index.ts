@@ -68,7 +68,7 @@ const indexSite = async (config) => {
             },
           });
 
-          if (res.status === 200) {
+          if (res.status > 200 && res.status < 300) {
             console.log(chunk.map((url) => `✅ Successfully submitted ${url}`).join("\n"));
           }
 
